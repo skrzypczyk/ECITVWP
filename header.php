@@ -6,3 +6,6 @@
 	<meta name="description" content="<?php echo get_bloginfo("description") ?>">
 </head>
 <body>
+	<header>
+		<nav><?php wp_nav_menu() ?></nav>
+	</header>
